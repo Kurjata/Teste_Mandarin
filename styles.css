@@ -1,0 +1,161 @@
+.gray-border {    
+    background: rgb(219, 216, 216);
+    border: 1px solid rgb(203, 198, 198);
+    height: 100%;
+    width: 90%;
+    margin: 3% auto 0 auto;
+    padding-bottom: 50px;
+}
+
+.white-content {
+    background-color: white; 
+    height: 95%;
+    width: 94%;
+    margin: -1px auto 0 auto;
+    padding-top: 20px; 
+    box-sizing: border-box; 
+    border: 1px solid rgb(219, 216, 216);   
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-top: -1px;
+}
+
+.white-content h1 {
+    font-size: 38px;
+    padding-top: 32px;
+    margin: 1px 4.5% 0 auto;
+    width: 88%;
+    text-align: left;
+    line-height: 1.4;
+}
+.white-content p {
+    font-size: 24px;
+    margin: 1px 4.4% 0 auto;
+    width: 88%;
+    text-align: left;
+    line-height: 1.4;
+    color: rgb(148, 146, 146);    
+}
+
+.white-content h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fonte{
+    color: aqua;
+    
+}
+
+.first-rectangle {
+    width: 30%;
+    height: 7px;
+    background: linear-gradient(45deg, red, blue);
+    border-radius: 5px;
+    margin: 1px 62.5% 0 auto;
+    
+}
+
+
+.header-content, .images-container-nba, .images-container-whatsapp {
+    display: flex;
+    align-items: stretch;
+    width: 35%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header-content img {
+    margin-right: 20px;
+}
+
+.images-container-nba img{
+    width: auto;      
+    margin-right: 20px;   
+    height: 370px;
+    
+}
+
+.texto-nba{
+    font-size: 32px  !important;
+    padding-top: 1px  !important;
+    margin: 1px auto 0 -20px  !important;   
+}
+
+.fonte-second{
+    font-size: 24px !important;
+    margin: 1px 4.4% 0 -2.5% !important;
+    
+}
+
+.images-container-whatsapp img {  
+    width: auto;  
+    height: 370px;
+}
+
+.second-rectangle {
+    width: 50%;
+    height: 7px;
+    background: linear-gradient(45deg, rgb(126, 247, 128), blue);
+    border-radius: 5px;
+    margin: 1px auto 0 -2.5%;     
+}
+
+.third-rectangle {    
+    width: 50%;
+    height: 7px;
+    background: linear-gradient(45deg, rgb(162, 245, 146), rgb(35, 153, 41));
+    border-radius: 5px;
+    margin: 1px auto 0 -2.5%; 
+}
+
+
+.imagem_cabeçalho{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.images{
+    margin-top: 32px;
+}
+
+.final-image{
+    width:100%;
+    padding-top: 32px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.nba, .whatsapp {
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+@media (min-width: 768px) {
+    .side-by-side {
+        flex-direction: row;
+    }
+
+    .nba, .whatsapp {
+        flex: 1; 
+        padding: 0 20px; 
+    }
+}
